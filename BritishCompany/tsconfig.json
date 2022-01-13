@@ -1,0 +1,17 @@
+ {
+   "compilerOptions": {
+     "module": "commonjs",
+     "noImplicitAny": true,
+     "skipLibCheck": true,
+     "removeComments": true,
+     "preserveConstEnums": true,
+     "sourceMap": true,
+
+   },
+   "files": [
+     "app.ts"
+   ],
+    "exclude": [
+      "node_modules", "**/*.lib.dom.d.ts"
+    ]  
+}
